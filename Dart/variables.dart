@@ -20,6 +20,7 @@ void basicTypes() {
   print(someNumber);
   print(yes);
   print(no);
+  // ignore: unnecessary_null_comparison
   print(nothing == null);
 }
 
