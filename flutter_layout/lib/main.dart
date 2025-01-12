@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_layout/immutable_widget.dart';
+import 'package:flutter_layout/basic_screen.dart';
+// import 'package:flutter_layout/immutable_widget.dart';
 
 void main(List<String> args) {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ImmutableWidget(),
+      home: BasicScreen(),
     );
   }
 }
